@@ -22,9 +22,9 @@ public class MainActivity extends AppCompatActivity {
 
         edit1 = findViewById(R.id.edit1);
         edit2 = findViewById(R.id.edit2);
-        Button btnPlus = findViewById(R.id.btn_plus);
+        Button btnCalc = findViewById(R.id.btn_calc);
 
-        btnPlus.setOnClickListener(btnListener);
+        btnCalc.setOnClickListener(btnListener);
     }
 
     View.OnClickListener btnListener = new View.OnClickListener() {
